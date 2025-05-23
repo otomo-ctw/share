@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Twitter投稿リンク生成</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Twitter投稿リンク生成</h1>
+    <textarea id="inputText" placeholder="投稿内容を入力してください"></textarea>
+    <button onclick="generate()">生成</button>
+    <textarea id="outputText" readonly placeholder="エンコード結果がここに表示されます"></textarea>
+    <a id="tweetLink" href="#" target="_blank">Twitterで投稿する</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
